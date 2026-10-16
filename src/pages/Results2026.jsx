@@ -1,6 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import { Link } from "react-router-dom";
-import { Trophy, Images, Users, Handshake, Ticket, ArrowUpRight, Sparkles } from "lucide-react";
+import { Trophy, Users, Handshake, Ticket, Sparkles } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { base44 } from "@/api/base44Client";
 import usePageMeta from "@/hooks/use-page-meta";
@@ -76,16 +75,6 @@ function Results2026Inner() {
             <p className="mt-4 max-w-2xl text-foreground/70">
               Thank you for paddling with us. Two days of racing, a festival that never stopped moving, and a community that kept its head above water — here's how it all finished.
             </p>
-            <div className="mt-7 flex flex-wrap gap-3">
-              <Link
-                to="/gallery"
-                className="group inline-flex items-center gap-2 btn-haw text-white font-semibold px-5 py-3 rounded-xl focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
-              >
-                <Images className="w-4 h-4" aria-hidden="true" />
-                Browse the Gallery
-                <ArrowUpRight className="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
-              </Link>
-            </div>
           </Reveal>
         </div>
       </section>

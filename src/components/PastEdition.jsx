@@ -138,11 +138,7 @@ export default function PastEdition({ year }) {
               {media.length > 0 ? (
                 <>
                   <GalleryGrid items={media} />
-                  <div className="mt-6 text-center">
-                    <Link to="/gallery" className="inline-flex items-center gap-2 glass text-white text-sm font-semibold px-5 py-3 rounded-xl hover:border-primary/40 transition-all">
-                      View the full gallery <ArrowRight className="w-4 h-4" />
-                    </Link>
-                  </div>
+
                 </>
               ) : (
                 <PlaceholderPanel
@@ -176,9 +172,9 @@ export default function PastEdition({ year }) {
             <div className="glass-blaze rounded-3xl p-8 sm:p-12 text-center">
               <span className="text-xs font-semibold uppercase tracking-[0.25em] text-primary">Latest Edition</span>
               <h3 className="mt-3 text-3xl font-bold text-white">Head Above Water 2026</h3>
-              <p className="mt-2 text-foreground/70 max-w-md mx-auto">The Singapore Sea Regatta continues — see how the 2026 edition finished, then join us in 2027.</p>
-              <Link to="/results-2026" className="mt-6 inline-flex items-center gap-2 gradient-blaze text-white font-semibold px-6 py-3.5 rounded-xl hover:-translate-y-0.5 transition-all">
-                See the 2026 Results &amp; Recap <ArrowRight className="w-4 h-4" />
+              <p className="mt-2 text-foreground/70 max-w-md mx-auto">The Singapore Sea Regatta continues — explore the 2026 edition, then join us in 2027.</p>
+              <Link to="/head-above-water-2026" className="mt-6 inline-flex items-center gap-2 gradient-blaze text-white font-semibold px-6 py-3.5 rounded-xl hover:-translate-y-0.5 transition-all">
+                Explore Head Above Water 2026 <ArrowRight className="w-4 h-4" />
               </Link>
             </div>
           </Reveal>

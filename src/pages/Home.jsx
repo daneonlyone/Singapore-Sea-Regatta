@@ -83,17 +83,7 @@ export default function Home() {
               Head Above Water 2026 is a wrap — two days of racing, festival and purpose at Marina Bay. Relive the champions, the moments and the impact we made together.
             </p>
           </Reveal>
-          <Reveal delay={360}>
-            <div className="mt-8 flex flex-wrap gap-3">
-              <Link to="/results-2026" className="group btn-haw inline-flex items-center gap-2 text-white font-semibold px-6 py-3.5 rounded-xl hover:-translate-y-0.5">
-                See the 2026 Results &amp; Recap
-                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-              </Link>
-              <Link to="/gallery" className="inline-flex items-center gap-2 glass text-white font-semibold px-6 py-3.5 rounded-xl hover:border-white/20 hover:-translate-y-0.5 transition-all">
-                Browse the Gallery
-              </Link>
-            </div>
-          </Reveal>
+
         </div>
 
         <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-foreground/50">

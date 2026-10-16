@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-import { Target, Eye, Heart, Mail, MapPin, ArrowRight } from "lucide-react";
+import { Target, Eye, Heart, Mail, MapPin } from "lucide-react";
 import { SOCIALS } from "@/components/socials";
 import { base44 } from "@/api/base44Client";
 import Reveal from "@/components/Reveal";
@@ -204,13 +203,6 @@ export default function AboutSSR() {
               </div>
             </Reveal>
           </div>
-          <Reveal>
-            <div className="mt-10 text-center">
-              <Link to="/results-2026" className="inline-flex items-center gap-2 gradient-blaze text-white font-semibold px-6 py-3.5 rounded-xl hover:-translate-y-0.5 transition-all">
-                See the 2026 Results &amp; Recap <ArrowRight className="w-4 h-4" />
-              </Link>
-            </div>
-          </Reveal>
         </div>
       </section>
     </div>);

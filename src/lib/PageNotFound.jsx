@@ -3,8 +3,8 @@ import { Compass, ArrowRight } from 'lucide-react';
 
 const SUGGESTIONS = [
   { label: "Home", to: "/" },
-  { label: "2026 Results & Recap", to: "/results-2026" },
-  { label: "Gallery", to: "/gallery" },
+  { label: "Head Above Water 2026", to: "/head-above-water-2026" },
+  { label: "Official Store", to: "/store" },
   { label: "About SSR", to: "/about-ssr" }
 ];
 
