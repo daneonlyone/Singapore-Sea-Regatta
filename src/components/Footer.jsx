@@ -8,8 +8,6 @@ const QUICK = [
   { label: "Race Information", to: "/race-information" },
   { label: "SSR Festival", to: "/ssr-festival" },
   { label: "Athlete Perks & Merch", to: "/athlete-perks-merch" },
-  { label: "2026 Results & Recap", to: "/results-2026" },
-  { label: "Gallery", to: "/gallery" },
   { label: "About SSR", to: "/about-ssr" },
   { label: "Partners & Sponsorship", to: "/partners" }
 ];

@@ -8,9 +8,7 @@ const NAV = [
   { label: "Home", to: "/" },
   { label: "Head Above Water 2026", to: "/head-above-water-2026" },
   { label: "Race Information", to: "/race-information" },
-  { label: "SSR Festival", to: "/ssr-festival" },
-  { label: "Results & Recap", to: "/results-2026" },
-  { label: "Gallery", to: "/gallery" }
+  { label: "SSR Festival", to: "/ssr-festival" }
 ];
 
 // Secondary destinations — grouped so every page stays reachable on desktop.
